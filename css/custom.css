@@ -1,8 +1,13 @@
 @import url('./reset.css');
 
 :root {
-    --body-color: #eee;
+    --body-color: #dbdbdb;
     --theme-color: #eb155c;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url('./../font/Vazir-Light.ttf');
 }
 
 .p-1 {
@@ -70,4 +75,38 @@
 
 .text-theme {
     color: var(--theme-color);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-50 {
+    width: 50%;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.w-max-content{
+    width: max-content;
+}
+
+.h-max-content{
+    height: max-content;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
 }
