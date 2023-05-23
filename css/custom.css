@@ -1,0 +1,73 @@
+@import url('./reset.css');
+
+:root {
+    --body-color: #eee;
+    --theme-color: #eb155c;
+}
+
+.p-1 {
+    padding: 0.3rem;
+}
+
+.p-2 {
+    padding: 0.6rem;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.m-1 {
+    margin: 0.3rem;
+}
+
+.m-2 {
+    margin: 0.6rem;
+}
+
+.m-3 {
+    margin: 1rem;
+}
+
+.m-4 {
+    margin: 1.3rem;
+}
+
+.center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-inline-b {
+    display: inline-block;
+}
+
+.d-none {
+    display: none;
+}
+
+.bg-theme {
+    background: var(--theme-color);
+}
+
+.text-theme {
+    color: var(--theme-color);
+}
