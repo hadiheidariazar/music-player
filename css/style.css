@@ -3,14 +3,15 @@
 body{
     background: var(--body-color);
     font-family: vazir;
+    background-image: url('./../image/yas-sefareshi.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     transition: all 0.5s;
+    overflow: hidden;
 }
 
 .container{
-    overflow: hidden;
     backdrop-filter: blur(50px);
 }
 
@@ -90,6 +91,6 @@ input[type=range]::-webkit-slider-thumb{
 
     .container .container-music-player{
         width: 15rem;
-        margin: 14.5vh auto;
+        margin: 17vh auto;
     }
 }
