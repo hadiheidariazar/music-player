@@ -11,45 +11,44 @@
 
 <body>
 
+    <audio src="./music/Sefareshi.mp3"></audio>
+
     <div class="container w-100 center-center">
         <div class="container-music-player h-max-content p-2">
             <div class="caver-music h-max-content center">
                 <div class="photo-music p-2 w-max-content">
-                    <img src="./image/eminem-lose-your-self.jpg" alt="bahram-naadideh" class="image-music circle">
+                    <img src="./image/yas-sefareshi.jpg" class="image-music circle">
                 </div>
             </div>
             <div class="music-infos h-max-content w-100">
                 <div class="title-music-player w-100">
-                    <p class="name-work text-center"> Lose Your Self </p>
+                    <p class="name-work text-center"> Sefareshi </p>
                 </div>
                 <div class="singer-music-player w-100 p-2">
-                    <p class="singer-name text-center"> Eminem </p>
+                    <p class="singer-name text-center"> Yas </p>
                 </div>
             </div>
             <div class="container-music-time w-100 center">
                 <div class="music-time w-max-content center-center p-1">
-                    <p class="total-time-music">05:15</p>
+                    <p class="total-time-music">05:37</p>
                     <input type="range" dir="ltr" class="m-2" id="range-music-time" step="1" min="0" value="0" max="">
                     <p class="current-time-music">00:00</p>
                 </div>
             </div>
             <div class="control">
                 <div class="control-music text-center">
-                    <button class="btn-control-music m-2" title="Next Music">
+                    <button class="btn-control-music next-music m-2" title="Next Music">
                         <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M686-221v-518h73v518h-73Zm-485 0v-518l375 259-375 259Z"/></svg>
                     </button>
-                    <button class="btn-control-music m-2" title="Play Music">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M553.077-226v-510h172.539v510H553.077Zm-317.693 0v-510h173.308v510H235.384Z"/></svg> -->
-
-                        <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M306-184v-598l471 299-471 299Z"/></svg>
+                    <button class="btn-control-music play-pause-music m-2" title="Play Music">
+                        <img src="./image/icons/play.svg" class="icon-play-pause">
                     </button>
-                    <button class="btn-control-music m-2" title="Previous Music">
+                    <button class="btn-control-music m-2 previous-music" title="Previous Music">
                         <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M201-221v-518h73v518h-73Zm558 0L384-480l375-259v518Z"/></svg>
                     </button>
                 </div>
             </div>
         </div>
-        <audio src="./music/Sefareshi.mp3"></audio>
     </div>
 
     <script src="./js/app.js"></script>

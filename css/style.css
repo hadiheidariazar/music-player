@@ -3,9 +3,9 @@
 body{
     background: var(--body-color);
     font-family: vazir;
-    background-image: url('./../image/eminem-lose-your-self.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    transition: all 0.5s;
 }
 
 .container{
@@ -15,25 +15,13 @@ body{
 }
 
 .container .container-music-player{
-    background-color: #fff;
+    background-color: #f1ecec;
     border-radius: 20px;
+    width: 21rem;
 }
 
 .image-music{
     width: 18rem;
-}
-
-.image-rotate{
-    animation: rotateImage 10s linear infinite;
-}
-
-@keyframes rotateImage {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
 }
 
 .title-music-player,
@@ -50,15 +38,15 @@ input[type=range]{
     appearance: none;
     background: var(--theme-color);
     border-radius: 30px;
-    height: 0.4rem;
+    height: 0.3rem;
 }
 
 input[type=range]::-webkit-slider-thumb{
-    background: var(--theme-color);
-    height: 15px;
+    background: #083be2;
+    height: 0.6rem;
     appearance: none;
     border-radius: 50%;
-    width: 15px;
+    width: 0.6rem;
 }
 
 .total-time-music,
@@ -73,6 +61,11 @@ input[type=range]::-webkit-slider-thumb{
     border: none;
     cursor: pointer;
     padding: 0;
+}
+
+.icon-play-pause{
+    margin-bottom: 2px;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 375px) {
@@ -92,5 +85,9 @@ input[type=range]::-webkit-slider-thumb{
         background: var(--theme-color);
         border-radius: 30px;
         height: 0.4rem;
+    }
+
+    .container .container-music-player{
+        width: 15rem;
     }
 }
