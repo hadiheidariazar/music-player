@@ -6,19 +6,24 @@ body{
     background-image: url('./../image/yas-sefareshi.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
 .container{
     backdrop-filter: blur(50px);
+    height: 100%;
 }
 
 .container .container-music-player{
     background-color: #f1ecec;
     border-radius: 20px;
-    margin: 13.25vh auto;
+    /* margin: 13.25vh auto; */
     width: 21rem;
 }
 
@@ -70,6 +75,11 @@ input[type=range]::-webkit-slider-thumb{
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 768px) {
+    .container .container-music-player{
+        /* margin: 12vh auto; */
+    }
+}
 @media screen and (max-width: 375px) {
     .image-music{
         width: 13rem;
@@ -91,6 +101,6 @@ input[type=range]::-webkit-slider-thumb{
 
     .container .container-music-player{
         width: 15rem;
-        margin: 17vh auto;
+        /* margin: 18vh auto; */
     }
 }
