@@ -5,18 +5,19 @@ body{
     font-family: vazir;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
     transition: all 0.5s;
 }
 
 .container{
     overflow: hidden;
-    height: 41.7rem;
     backdrop-filter: blur(50px);
 }
 
 .container .container-music-player{
     background-color: #f1ecec;
     border-radius: 20px;
+    margin: 13.25vh auto;
     width: 21rem;
 }
 
@@ -89,5 +90,6 @@ input[type=range]::-webkit-slider-thumb{
 
     .container .container-music-player{
         width: 15rem;
+        margin: 14.5vh auto;
     }
 }
